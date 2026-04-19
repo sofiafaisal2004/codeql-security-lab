@@ -1,0 +1,168 @@
+[2026-04-19 10:03:06] This is codeql dataset import -J-Xmx1188M --verbosity=progress --logdir=/home/kali/codeql-lab/my-python-db/log --dbscheme=/home/kali/codeql-home/codeql/python/semmlecode.python.dbscheme -- /home/kali/codeql-lab/my-python-db/db-python /home/kali/codeql-lab/my-python-db/trap/python
+[2026-04-19 10:03:06] Clearing disk cache since the version file /home/kali/codeql-lab/my-python-db/db-python/default/cache/version does not exist
+[2026-04-19 10:03:07] Tuple pool not found. Clearing relations with cached strings
+[2026-04-19 10:03:07] Trimming disk cache at /home/kali/codeql-lab/my-python-db/db-python/default/cache in mode clear.
+[2026-04-19 10:03:07] Sequence stamp origin is -5923415369004135726
+[2026-04-19 10:03:07] Pausing evaluation to hard-clear memory at sequence stamp o+0
+[2026-04-19 10:03:07] Unpausing evaluation
+[2026-04-19 10:03:07] Pausing evaluation to quickly trim disk at sequence stamp o+1
+[2026-04-19 10:03:07] Unpausing evaluation
+[2026-04-19 10:03:07] Pausing evaluation to zealously trim disk at sequence stamp o+2
+[2026-04-19 10:03:07] Unpausing evaluation
+[2026-04-19 10:03:07] Trimming completed (48ms): Purged everything.
+[2026-04-19 10:03:07] Scanning for files in /home/kali/codeql-lab/my-python-db/trap/python
+[2026-04-19 10:03:07] Found 14 TRAP files (465.20 KiB)
+[2026-04-19 10:03:07] [PROGRESS] dataset import> Importing TRAP files
+[2026-04-19 10:03:07] Importing $files.CMaxzjdIiE_goUQtcvquuDuajjs=.trap.gz (1 of 14)
+[2026-04-19 10:03:08] Importing $files.UOCniZyBe1rAylzc9OXcu1HMf7U=.trap.gz (2 of 14)
+[2026-04-19 10:03:08] Importing $flags.kPboFXoZfQXzgyOmcB5GUkGtKhw=.trap.gz (3 of 14)
+[2026-04-19 10:03:08] Importing $interpreter3.dHqWXOICkRkrSmqf2TfMW2FSev4=.trap.gz (4 of 14)
+[2026-04-19 10:03:08] Importing $stdlib_33.ggj9rfnc9nV-EkbT8uASeZh9rn4=.trap (5 of 14)
+[2026-04-19 10:03:08] Importing codeql-database.yml.trap.gz (6 of 14)
+[2026-04-19 10:03:08] Importing codeql-pack.lock.yml.trap.gz (7 of 14)
+[2026-04-19 10:03:08] Importing qlpack.yml.trap.gz (8 of 14)
+[2026-04-19 10:03:08] Importing qlpack.yml.trap.gz (9 of 14)
+[2026-04-19 10:03:08] Importing metadata.trap.gz (10 of 14)
+[2026-04-19 10:03:08] Importing sqlite3.WHeLVxIHB1Iqu3-XaxSyS-wRIhc=.trap.gz (11 of 14)
+[2026-04-19 10:03:08] Importing student_validation_task.py.H5Qgzi-rZnMa1D_cUYiRH_o-UAw=.trap.gz (12 of 14)
+[2026-04-19 10:03:08] Importing vuln.py.EcJFpOC3wS7Rrpjf6VYziXZ_RsU=.trap.gz (13 of 14)
+[2026-04-19 10:03:08] Importing vuln.py.awHwW8DqKrwb0ywA8QpMPVGi88Y=.trap.gz (14 of 14)
+[2026-04-19 10:03:08] [PROGRESS] dataset import> Merging relations
+[2026-04-19 10:03:08] Merging 1 fragment for 'files'.
+[2026-04-19 10:03:08] Merged 43 bytes for 'files'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'folders'.
+[2026-04-19 10:03:08] Merged 49 bytes for 'folders'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'containerparent'.
+[2026-04-19 10:03:08] Merged 66 bytes for 'containerparent'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_flags_versioned'.
+[2026-04-19 10:03:08] Merged 186 bytes for 'py_flags_versioned'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_cobjects'.
+[2026-04-19 10:03:08] Merged 4444 bytes (4.34 KiB) for 'py_cobjects'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_cobjecttypes'.
+[2026-04-19 10:03:08] Merged 4778 bytes (4.67 KiB) for 'py_cobjecttypes'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_cobject_sources'.
+[2026-04-19 10:03:08] Merged 6617 bytes (6.46 KiB) for 'py_cobject_sources'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_cobjectnames'.
+[2026-04-19 10:03:08] Merged 5680 bytes (5.55 KiB) for 'py_cobjectnames'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_cmembers_versioned'.
+[2026-04-19 10:03:08] Merged 6477 bytes (6.33 KiB) for 'py_cmembers_versioned'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_special_objects'.
+[2026-04-19 10:03:08] Merged 135 bytes for 'py_special_objects'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_citems'.
+[2026-04-19 10:03:08] Merged 537 bytes for 'py_citems'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'ext_rettype'.
+[2026-04-19 10:03:08] Merged 4050 bytes (3.96 KiB) for 'ext_rettype'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'ext_argtype'.
+[2026-04-19 10:03:08] Merged 6815 bytes (6.66 KiB) for 'ext_argtype'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'ext_argreturn'.
+[2026-04-19 10:03:08] Merged 41 bytes for 'ext_argreturn'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'ext_proptype'.
+[2026-04-19 10:03:08] Merged 343 bytes for 'ext_proptype'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'yaml_scalars'.
+[2026-04-19 10:03:08] Merged 313 bytes for 'yaml_scalars'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'yaml'.
+[2026-04-19 10:03:08] Merged 1115 bytes (1.09 KiB) for 'yaml'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'locations_default'.
+[2026-04-19 10:03:08] Merged 910 bytes for 'locations_default'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'yaml_locations'.
+[2026-04-19 10:03:08] Merged 332 bytes for 'yaml_locations'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'sourceLocationPrefix'.
+[2026-04-19 10:03:08] Merged 17 bytes for 'sourceLocationPrefix'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_Modules'.
+[2026-04-19 10:03:08] Merged 21 bytes for 'py_Modules'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_module_path'.
+[2026-04-19 10:03:08] Merged 35 bytes for 'py_module_path'.
+[2026-04-19 10:03:08] Merging 1 fragment for 'py_flow_bb_node'.
+[2026-04-19 10:03:09] Merged 620 bytes for 'py_flow_bb_node'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_scope_flow'.
+[2026-04-19 10:03:09] Merged 163 bytes for 'py_scope_flow'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'locations_ast'.
+[2026-04-19 10:03:09] Merged 919 bytes for 'locations_ast'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'variable'.
+[2026-04-19 10:03:09] Merged 187 bytes for 'variable'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_extracted_version'.
+[2026-04-19 10:03:09] Merged 31 bytes for 'py_extracted_version'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_stmt_lists'.
+[2026-04-19 10:03:09] Merged 78 bytes for 'py_stmt_lists'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_stmts'.
+[2026-04-19 10:03:09] Merged 181 bytes for 'py_stmts'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_scopes'.
+[2026-04-19 10:03:09] Merged 251 bytes for 'py_scopes'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_alias_lists'.
+[2026-04-19 10:03:09] Merged 45 bytes for 'py_alias_lists'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_aliases'.
+[2026-04-19 10:03:09] Merged 67 bytes for 'py_aliases'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_exprs'.
+[2026-04-19 10:03:09] Merged 682 bytes for 'py_exprs'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_ints'.
+[2026-04-19 10:03:09] Merged 38 bytes for 'py_ints'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_strs'.
+[2026-04-19 10:03:09] Merged 246 bytes for 'py_strs'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_bools'.
+[2026-04-19 10:03:09] Merged 43 bytes for 'py_bools'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_variables'.
+[2026-04-19 10:03:09] Merged 179 bytes for 'py_variables'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_expr_contexts'.
+[2026-04-19 10:03:09] Merged 284 bytes for 'py_expr_contexts'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_expr_lists'.
+[2026-04-19 10:03:09] Merged 183 bytes for 'py_expr_lists'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_arguments'.
+[2026-04-19 10:03:09] Merged 41 bytes for 'py_arguments'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_Functions'.
+[2026-04-19 10:03:09] Merged 41 bytes for 'py_Functions'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_boolops'.
+[2026-04-19 10:03:09] Merged 42 bytes for 'py_boolops'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_unaryops'.
+[2026-04-19 10:03:09] Merged 48 bytes for 'py_unaryops'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_numbers'.
+[2026-04-19 10:03:09] Merged 52 bytes for 'py_numbers'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_cmpop_lists'.
+[2026-04-19 10:03:09] Merged 33 bytes for 'py_cmpop_lists'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_cmpops'.
+[2026-04-19 10:03:09] Merged 58 bytes for 'py_cmpops'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_exports'.
+[2026-04-19 10:03:09] Merged 42 bytes for 'py_exports'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_successors'.
+[2026-04-19 10:03:09] Merged 356 bytes for 'py_successors'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_false_successors'.
+[2026-04-19 10:03:09] Merged 37 bytes for 'py_false_successors'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_true_successors'.
+[2026-04-19 10:03:09] Merged 38 bytes for 'py_true_successors'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_idoms'.
+[2026-04-19 10:03:09] Merged 347 bytes for 'py_idoms'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_ssa_var'.
+[2026-04-19 10:03:09] Merged 97 bytes for 'py_ssa_var'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_ssa_defn'.
+[2026-04-19 10:03:09] Merged 87 bytes for 'py_ssa_defn'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_ssa_use'.
+[2026-04-19 10:03:09] Merged 113 bytes for 'py_ssa_use'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_scope_location'.
+[2026-04-19 10:03:09] Merged 58 bytes for 'py_scope_location'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_codelines'.
+[2026-04-19 10:03:09] Merged 45 bytes for 'py_codelines'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_commentlines'.
+[2026-04-19 10:03:09] Merged 46 bytes for 'py_commentlines'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_docstringlines'.
+[2026-04-19 10:03:09] Merged 41 bytes for 'py_docstringlines'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_alllines'.
+[2026-04-19 10:03:09] Merged 45 bytes for 'py_alllines'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'numlines'.
+[2026-04-19 10:03:09] Merged 53 bytes for 'numlines'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_locations'.
+[2026-04-19 10:03:09] Merged 393 bytes for 'py_locations'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_parameter_lists'.
+[2026-04-19 10:03:09] Merged 33 bytes for 'py_parameter_lists'.
+[2026-04-19 10:03:09] Merging 1 fragment for 'py_comments'.
+[2026-04-19 10:03:09] Merged 43 bytes for 'py_comments'.
+[2026-04-19 10:03:09] Saving string and id pools to disk.
+[2026-04-19 10:03:09] Finished importing TRAP files.
+[2026-04-19 10:03:09] Read 1014.70 KiB of uncompressed TRAP data.
+[2026-04-19 10:03:09] Uncompressed relation data size: 205.13 KiB
+[2026-04-19 10:03:09] Relation data size: 48.23 KiB (merge rate: 249.46 KiB/s)
+[2026-04-19 10:03:09] String pool size: 2.08 MiB
+[2026-04-19 10:03:09] ID pool size: 1.09 MiB
+[2026-04-19 10:03:09] [PROGRESS] dataset import> Finished writing database (relations: 48.23 KiB; string pool: 2.08 MiB).
+[2026-04-19 10:03:09] Pausing evaluation to close the cache at sequence stamp o+129
+[2026-04-19 10:03:09] The disk cache is freshly trimmed; leave it be.
+[2026-04-19 10:03:09] Unpausing evaluation
+[2026-04-19 10:03:09] Terminating normally.

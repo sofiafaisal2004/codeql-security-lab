@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: /home/kali/codeql-lab
+baselineLinesOfCode: 36
+unicodeNewlines: false
+columnKind: utf32
+primaryLanguage: python
+creationMetadata:
+  cliVersion: 2.25.2
+  creationTime: 2026-04-19T14:02:58.265115937Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

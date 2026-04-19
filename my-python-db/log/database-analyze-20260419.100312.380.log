@@ -1,0 +1,12 @@
+[2026-04-19 10:03:12] This is codeql database analyze /home/kali/codeql-lab/my-python-db /home/kali/.codeql/packages/codeql/python-queries/1.8.0/Security/CWE-089/SqlInjection.ql --format=csv --output=/home/kali/codeql-lab/results.csv
+[2026-04-19 10:03:12] Log file was started late.
+[2026-04-19 10:03:12] [PROGRESS] database analyze> Running queries.
+[2026-04-19 10:03:12] Running plumbing command: codeql database run-queries --evaluator-log-level=5 --warnings=show --qlconfig-file=/home/kali/codeql-lab/qlconfig.yml --dynamic-join-order-mode=none --no-rerun --interpret-passthrough=null,--format=csv,-o=/home/kali/codeql-lab/results.csv,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--qlconfig-file=/home/kali/codeql-lab/qlconfig.yml,--,/home/kali/codeql-lab/my-python-db,/home/kali/.codeql/packages/codeql/python-queries/1.8.0/Security/CWE-089/SqlInjection.ql -- /home/kali/codeql-lab/my-python-db /home/kali/.codeql/packages/codeql/python-queries/1.8.0/Security/CWE-089/SqlInjection.ql
+[2026-04-19 10:03:12] Calling plumbing command: codeql resolve ram --dataset=/home/kali/codeql-lab/my-python-db/db-python --format=json
+[2026-04-19 10:03:12] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1385M"
+                      ]
+[2026-04-19 10:03:12] Chaining via /tmp/codeql.qtbOn3WB to plumbing: execute queries -J-Xmx1385M --verbosity=progress --logdir=/home/kali/codeql-lab/my-python-db/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/home/kali/codeql-lab/qlconfig.yml --dynamic-join-order-mode=none --no-rerun --interpret-passthrough=null,--format=csv,-o=/home/kali/codeql-lab/results.csv,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--qlconfig-file=/home/kali/codeql-lab/qlconfig.yml,--,/home/kali/codeql-lab/my-python-db,/home/kali/.codeql/packages/codeql/python-queries/1.8.0/Security/CWE-089/SqlInjection.ql --output=/home/kali/codeql-lab/my-python-db/results -- /home/kali/codeql-lab/my-python-db/db-python /home/kali/.codeql/packages/codeql/python-queries/1.8.0/Security/CWE-089/SqlInjection.ql
+[2026-04-19 10:03:12] Plumbing command codeql database run-queries completed with status 70.
+[2026-04-19 10:03:12] Exiting with code 70
